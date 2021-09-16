@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+.btn-master, .btn-light, .btn-secondary {
+  border-radius: 40px 40px 20px 20px;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+.btn-light {
+  color: #272042;
+  background: #FBE0DC;
+  margin-left: 52px;
+}
+
+.btn-secondary {
+  background: #F7C531;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-tp {
+  padding-top: 40px;
+}
+
+.navbar-tp .navbar-nav li {
+  padding-left: 25px;
+}
+
+.navbar-tp .navbar-nav .active {
+  color: #272042 !important;
+  font-weight: 500 !important;
+}
+
+.navbar-tp .navbar-nav .nav-link {
+  color: #8B8BA5;
+  font-weight: 400;
+}
+
+.sales {
+  padding-top: 100px;
+}
+
+.sales .copywriting {
+  padding-right: 100px;
+}
+
+.header {
+  font-weight: 600;
+  color: #272042;
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: 110px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #8B8BA5;
+}
+
+.optionfood {
+  margin-top: 80px;
+}
+
+.optionfood .judul {
+  font-size: 20px;
+}
+
+.optionfood .judultengah {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.optionfood .list-menu {
+  font-size: 20px;
+}
+
+.optionfood ul {
+  list-style: none;
+}
+
+.optionfood ul .list-food {
+  color: #F7C531;
+}
+
+.optionfood ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.optionfood .gambarkecil {
+  margin-top: 50px;
+  margin-left: 10px !important;
+}
+
+.dfood {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.chef {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
