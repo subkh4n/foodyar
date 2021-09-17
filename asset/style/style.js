@@ -5,10 +5,6 @@ window.addEventListener('load', () => {
   starIcon.classList.add('far', 'fa-star');
 
   featuredFoods.forEach((el) => {
-    el.append(starIcon);
-    el.append(starIcon);
-    el.append(starIcon);
-    el.append(starIcon);
-    el.append(starIcon);
+    el.append(starIcon, starIcon, starIcon, starIcon, starIcon);
   })
-});
+})
