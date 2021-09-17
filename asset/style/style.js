@@ -2,9 +2,13 @@ window.addEventListener('load', () => {
   let featuredFoods = document.querySelectorAll('.bintang');
 
   let starIcon = document.createElement('i');
-  starIcon.classList.add('far.fa-star');
+  starIcon.classList.add('far', 'fa-star');
 
   featuredFoods.forEach((el) => {
-      el.append(starIcon,starIcon,starIcon,starIcon,starIcon);
+    el.append(starIcon);
+    el.append(starIcon);
+    el.append(starIcon);
+    el.append(starIcon);
+    el.append(starIcon);
   })
-})
+});
