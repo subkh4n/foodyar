@@ -1,0 +1,6 @@
+.sass-cache/
+*.sass.map
+*.scss.map
+*.css.map
+/.vscode/
+lainnya.html

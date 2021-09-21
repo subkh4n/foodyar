@@ -1,0 +1,575 @@
+@import './colors';
+@import './buttons';
+@import './typo';
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-tp {
+  padding-top: 40px;
+
+  .navbar-nav {
+    li {
+      padding-left: 25px;
+    }
+
+    .active {
+      color: $hitam !important;
+      font-weight: map-get($font-weight, medium) !important;
+    }
+
+    .nav-link {
+      color: $abu;
+      font-weight: map-get($font-weight, regular);
+    }
+  }
+}
+
+.sales {
+  padding-top: 100px;
+
+  .copywriting {
+    padding-right: 100px;
+  }
+}
+
+.header {
+  font-weight: map-get($font-weight, semibold);
+  color: $hitam;
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: 110px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: map-get($font-weight, regular);
+  color: $abu;
+}
+
+.optionfood {
+  margin-top: 80px;
+
+  .judul {
+    font-size: 20px;
+    font-weight: map-get($font-weight, reguler);
+  }
+
+  .judultengah {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: map-get($font-weight, bold);
+  }
+
+  .list-menu {
+    font-size: 20px;
+    font-weight: map-get($font-weight, reguler);
+  }
+
+  ul {
+    list-style: none;
+
+    .list-food {
+      color: $emas;
+    }
+
+    li {
+      display: inline;
+      padding-left: 20px;
+    }
+  }
+
+  .gambarkecil {
+    margin-top: 50px;
+    margin-left: 10px !important;
+  }
+}
+
+.dfood {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: $hitam;
+}
+
+.chef {
+  margin-left: 20px;
+  margin-top: -15px;
+  color: $abu;
+}
+
+P.bintang {
+  margin-left: 20px;
+
+  i {
+    margin-left: 5px;
+    color: $emas;
+  }
+}
+
+.review {
+  margin-top: 50px;
+
+  .text-review {
+    margin-top: -100px;
+    line-height: 50px;
+    font-size: 36px;
+    font-weight: 400;
+    color: $hitam;
+  }
+
+  .imgfloat {
+    margin-top: 25px;
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+
+      .namechief {
+        font-size: 22px;
+        font-weight: map-get($font-weight, medium);
+        color: $hitam;
+      }
+
+      .jobchief {
+        font-size: 16px;
+        margin-top: -20px;
+        color: $abu;
+      }
+    }
+
+
+  }
+
+  .feature-image {
+    width: 90px;
+    float: left;
+  }
+}
+
+.section-stats {
+  margin-top: 25px;
+
+  .stats-detail {
+    padding-top: 15px;
+    padding-left: 40px;
+    margin-left: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: map-get($font-weight, bold);
+    color: $hitam;
+  }
+
+  p {
+    font-size: 20px;
+    color: $abu;
+    text-transform: uppercase;
+  }
+}
+
+.appfood {
+  margin-top: 100px;
+
+  h1 {
+    font-size: 46px;
+    line-height: 70px;
+    font-weight: bold;
+    color: $hitam;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 34px;
+    color: $abu;
+    margin-bottom: 50px;
+  }
+
+  .imgapp {
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+}
+
+.Kaki {
+  margin-top: 1000px;
+
+  h5 {
+    color: $hitam;
+    font-weight: map-get($font-weight, medium);
+    font-size: 22px;
+  }
+
+  ul {
+    color: $abu;
+    font-size: 18px;
+  }
+
+  .footerbw {
+    font-size: 16px;
+  }
+}
+
+// ukuran layar browser sekarang
+@media only screen and (min-width: 375px) {
+  .sales {
+    margin-top: -150px !important;
+
+    img {
+      height: auto;
+      width: 350px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .optionfood {
+
+    li {
+      font-size: 12px;
+    }
+  }
+
+  img.gambarkecil {
+    height: auto;
+    width: 200px;
+  }
+
+  .review {
+    margin-top: 100px;
+
+    img {
+      height: auto;
+      width: 100px;
+    }
+
+    .text-review {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-left: 40px;
+
+    }
+
+
+    .imgfloat {
+      margin-left: 50px;
+    }
+  }
+
+
+  #stats {
+    display: grid;
+    margin-left: -100px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+      display: inline-block;
+    }
+  }
+
+  .imgapp {
+    img {
+      width: 270px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    img {
+      width: 200px;
+    }
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+// responsive mobile 600
+@media only screen and (max-width: 547px) {
+  .sales {
+    margin-top: -150px !important;
+
+    img {
+      height: auto;
+      width: 450px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .optionfood {
+    li {
+      font-size: 18px;
+    }
+  }
+
+  img.gambarkecil {
+    height: auto;
+    width: 235px;
+  }
+
+  .review {
+    margin-top: 100px;
+
+    img {
+      height: auto;
+      width: 100px;
+    }
+
+    .text-review {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 40px;
+    }
+
+    .imgfloat {
+      margin-left: 70px;
+    }
+  }
+
+  .angka {
+    margin-top: -10px;
+  }
+
+  #stats {
+    display: grid;
+    margin-left: -100px;
+
+    h2 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      display: inline-block;
+    }
+  }
+
+  .imgapp {
+    img {
+      width: 400px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+// ukuran hp sekarang (6 inc ke atas)
+@media only screen and (min-width: 547px) {
+  .sales {
+
+    img {
+      height: auto;
+      width: 450px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .optionfood {
+    li {
+      font-size: 18px;
+    }
+  }
+
+  img.gambarkecil {
+    height: auto;
+    width: 235px;
+  }
+
+  .review {
+    margin-top: 100px;
+
+    img {
+      height: auto;
+      width: 100px;
+    }
+
+    .text-review {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 40px;
+    }
+
+    .imgfloat {
+      margin-left: 70px;
+    }
+  }
+
+  .angka {
+    margin-top: -10px;
+  }
+
+  #stats {
+    display: grid;
+    margin-left: -100px;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      display: inline-block;
+    }
+  }
+
+  .imgapp {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+// ukuran 768
+@media only screen and (min-width: 768px) {
+  .sales {
+    margin-top: 50px;
+
+    h1 {
+      line-height: 50px;
+    }
+  }
+
+  .review {
+    margin-top: 50px;
+
+    img {
+      width: 100px;
+      margin-left: 70px;
+    }
+
+    .text-review {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+
+    .imgfloat {
+      margin-left: 100px;
+    }
+  }
+
+  .angka {
+    margin-top: -10px;
+  }
+
+  .imgapp {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .appfood {
+    img {
+      padding-left: 180px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 14px;
+    }
+  }
+}

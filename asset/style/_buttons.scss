@@ -1,0 +1,19 @@
+@import './typo';
+
+.btn-master {
+  border-radius: 40px 40px 20px 20px;
+  font-weight: map-get($font-weight, medium);
+  padding: 10px 25px;
+}
+
+.btn-light {
+  @extend .btn-master;
+  color: $hitam;
+  background: $pink;
+  margin-left: 52px;
+}
+
+.btn-secondary {
+  @extend .btn-master;
+  background: $emas;
+}
