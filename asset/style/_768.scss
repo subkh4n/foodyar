@@ -1,0 +1,65 @@
+// ukuran 768
+@media (min-width: 768px) and (max-width:992px) {
+  .sales {
+    margin-top: 50px;
+
+    h1 {
+      line-height: 50px;
+    }
+  }
+
+  .review {
+    margin-top: 50px;
+
+    img {
+      width: 100px;
+      margin-left: 70px;
+    }
+
+    .text-review {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+
+    .imgfloat {
+      margin-left: 100px;
+    }
+  }
+
+  .angka {
+    margin-top: -10px;
+  }
+
+  .imgapp {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .appfood {
+    img {
+      padding-left: 180px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 14px;
+    }
+  }
+}

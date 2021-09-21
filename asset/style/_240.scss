@@ -1,0 +1,100 @@
+// ukuran layar browser sekarang
+@media only screen and (min-width: 375px) {
+  .sales {
+    margin-top: -150px !important;
+
+    img {
+      height: auto;
+      width: 350px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .optionfood {
+
+    li {
+      font-size: 12px;
+    }
+  }
+
+  img.gambarkecil {
+    height: auto;
+    width: 200px;
+  }
+
+  .review {
+    margin-top: 100px;
+
+    img {
+      height: auto;
+      width: 100px;
+    }
+
+    .text-review {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-left: 40px;
+
+    }
+
+
+    .imgfloat {
+      margin-left: 50px;
+    }
+  }
+
+
+  #stats {
+    display: grid;
+    margin-left: -100px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+      display: inline-block;
+    }
+  }
+
+  .imgapp {
+    img {
+      width: 270px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .kaki {
+    height: 10px;
+  }
+
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box !important;
+
+    img {
+      width: 200px;
+    }
+
+    h5 {
+      font-weight: bolder;
+    }
+  }
+
+  .footerbw {
+    p {
+      font-size: 12px;
+    }
+  }
+}
