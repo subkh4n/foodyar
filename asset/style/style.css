@@ -15,6 +15,85 @@
   background: #F7C531;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .sales {
+    margin-top: -150px !important;
+  }
+  .sales img {
+    height: auto;
+    width: 350px;
+  }
+  .sales h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .sales p {
+    font-size: 13px;
+  }
+  .optionfood li {
+    font-size: 12px;
+  }
+  img.gambarkecil {
+    height: auto;
+    width: 200px;
+  }
+  .review {
+    margin-top: 100px;
+  }
+  .review img {
+    height: auto;
+    width: 100px;
+  }
+  .review p.text-review {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .imgfloat {
+    margin-left: 40px;
+  }
+  #stats {
+    display: -ms-grid;
+    display: grid;
+    margin-left: -100px;
+  }
+  #stats h2 {
+    font-size: 20px;
+  }
+  #stats p {
+    font-size: 12px;
+    display: inline-block;
+  }
+  .appfood h1 {
+    font-size: 32px !important;
+    line-height: 35px !important;
+  }
+  .appfood p {
+    font-size: 18px !important;
+    line-height: 35px !important;
+  }
+  .appfood .imgapp img {
+    width: 270px;
+    margin-bottom: 10px;
+  }
+  .kaki {
+    height: 10px;
+  }
+  .header-kaki {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .header-kaki img {
+    width: 200px;
+  }
+  .header-kaki h5 {
+    font-weight: bolder;
+  }
+  .footerbw p {
+    font-size: 11px;
+  }
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -132,29 +211,29 @@ P.bintang i {
   color: #272042;
 }
 
-.review .imgfloat {
+.imgfloat {
   margin-top: 25px;
 }
 
-.review .imgfloat .description {
+.imgfloat .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
 
-.review .imgfloat .description .namechief {
+.imgfloat .description .namechief {
   font-size: 22px;
   font-weight: 500;
   color: #272042;
 }
 
-.review .imgfloat .description .jobchief {
+.imgfloat .description .jobchief {
   font-size: 16px;
   margin-top: -20px;
   color: #8B8BA5;
 }
 
-.review .feature-image {
+.imgfloat .feature-image {
   width: 90px;
   float: left;
 }

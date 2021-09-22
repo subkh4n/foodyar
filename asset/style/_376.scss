@@ -1,5 +1,4 @@
-// ukuran layar browser sekarang
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width:768px) {
   .sales {
     margin-top: -150px !important;
 
@@ -18,6 +17,7 @@
     }
   }
 
+  // menufood
   .optionfood {
 
     li {
@@ -30,6 +30,7 @@
     width: 200px;
   }
 
+  // review
   .review {
     margin-top: 100px;
 
@@ -38,21 +39,18 @@
       width: 100px;
     }
 
-    .text-review {
+    p.text-review {
       font-size: 14px;
       font-weight: bold;
-      line-height: 20px;
-      margin-left: 40px;
-
-    }
-
-
-    .imgfloat {
-      margin-left: 50px;
+      line-height: 30px;
     }
   }
 
+  .imgfloat {
+    margin-left: 40px;
+  }
 
+  // angka statistik
   #stats {
     display: grid;
     margin-left: -100px;
@@ -67,8 +65,19 @@
     }
   }
 
-  .imgapp {
-    img {
+  // download aplikasi
+  .appfood {
+    h1 {
+      font-size: 32px !important;
+      line-height: 35px !important;
+    }
+
+    p {
+      font-size: 18px !important;
+      line-height: 35px !important;
+    }
+
+    .imgapp img {
       width: 270px;
       margin-bottom: 10px;
     }
@@ -79,9 +88,8 @@
   }
 
   .header-kaki {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    box-sizing: border-box !important;
 
     img {
       width: 200px;
@@ -92,9 +100,10 @@
     }
   }
 
+
   .footerbw {
     p {
-      font-size: 12px;
+      font-size: 11px;
     }
   }
 }

@@ -1,6 +1,7 @@
 @import './colors';
 @import './buttons';
 @import './typo';
+@import './376';
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
@@ -124,28 +125,27 @@ P.bintang {
     color: $hitam;
   }
 
-  .imgfloat {
-    margin-top: 25px;
+}
 
-    .description {
-      margin-left: 10px;
-      overflow: hidden;
-      float: left;
+.imgfloat {
+  margin-top: 25px;
 
-      .namechief {
-        font-size: 22px;
-        font-weight: map-get($font-weight, medium);
-        color: $hitam;
-      }
+  .description {
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
 
-      .jobchief {
-        font-size: 16px;
-        margin-top: -20px;
-        color: $abu;
-      }
+    .namechief {
+      font-size: 22px;
+      font-weight: map-get($font-weight, medium);
+      color: $hitam;
     }
 
-
+    .jobchief {
+      font-size: 16px;
+      margin-top: -20px;
+      color: $abu;
+    }
   }
 
   .feature-image {
@@ -153,6 +153,8 @@ P.bintang {
     float: left;
   }
 }
+
+
 
 .section-stats {
   margin-top: 25px;
