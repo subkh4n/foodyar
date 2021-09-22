@@ -96,7 +96,7 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1080px) {
   .imgfloat {
-    margin-left: 100px;
+    margin-left: 150px;
   }
   #stats {
     display: -ms-grid;
@@ -111,14 +111,8 @@
   .angka {
     margin-top: -10px;
   }
-  .imgapp img {
-    margin-bottom: 10px;
-  }
-  .appfood img {
+  .appfood {
     padding-left: 180px;
-  }
-  .kaki {
-    height: 10px;
   }
   .header-kaki {
     margin-bottom: 20px;

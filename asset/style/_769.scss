@@ -1,7 +1,7 @@
 // ukuran hp sekarang (6 inc ke atas)
 @media only screen and (min-width: 769px) and (max-width:1080px) {
   .imgfloat {
-    margin-left: 100px;
+    margin-left: 150px;
   }
 
   #stats {
@@ -20,20 +20,8 @@
     margin-top: -10px;
   }
 
-  .imgapp {
-    img {
-      margin-bottom: 10px;
-    }
-  }
-
   .appfood {
-    img {
-      padding-left: 180px;
-    }
-  }
-
-  .kaki {
-    height: 10px;
+    padding-left: 180px;
   }
 
   .header-kaki {
