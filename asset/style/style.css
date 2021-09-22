@@ -94,6 +94,46 @@
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+  .imgfloat {
+    margin-left: 100px;
+  }
+  #stats {
+    display: -ms-grid;
+    display: grid;
+  }
+  #stats h2 {
+    font-size: 20px;
+  }
+  #stats p {
+    font-size: 12px;
+  }
+  .angka {
+    margin-top: -10px;
+  }
+  .imgapp img {
+    margin-bottom: 10px;
+  }
+  .appfood img {
+    padding-left: 180px;
+  }
+  .kaki {
+    height: 10px;
+  }
+  .header-kaki {
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+  }
+  .header-kaki h5 {
+    font-weight: bolder;
+  }
+  .footerbw p {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
 }

@@ -1,29 +1,18 @@
-// ukuran 768
-@media only screen and (min-width: 768px) and (max-width:992px) {
-  .sales {
-    margin-top: 50px;
-
-    h1 {
-      line-height: 50px;
-    }
+// ukuran hp sekarang (6 inc ke atas)
+@media only screen and (min-width: 769px) and (max-width:1080px) {
+  .imgfloat {
+    margin-left: 100px;
   }
 
-  .review {
-    margin-top: 50px;
+  #stats {
+    display: grid;
 
-    img {
-      width: 100px;
-      margin-left: 70px;
-    }
-
-    .text-review {
+    h2 {
       font-size: 20px;
-      font-weight: bold;
-      line-height: 30px;
     }
 
-    .imgfloat {
-      margin-left: 100px;
+    p {
+      font-size: 12px;
     }
   }
 
